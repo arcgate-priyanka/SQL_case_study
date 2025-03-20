@@ -174,3 +174,4 @@ FROM sales s
 JOIN menu m ON s.product_id = m.product_id
 LEFT JOIN members mem ON s.customer_id = mem.customer_id
 ORDER BY s.customer_id, s.order_date;
+
